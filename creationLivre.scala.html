@@ -1,0 +1,15 @@
+@import play.mvc.Http.Request
+@import play.mvc.Http.Request
+@(pForm: Form[Livre])(implicit request: Request, messages: play.i18n.Messages)
+
+@main("Please enter your information") {
+@helper.form(action = routes.HomeController.creerLivreform) {
+@helper.CSRF.formField
+@helper.inputText(pForm("auteur")) 
+@helper.inputText(pForm("editeur"))
+@helper.inputText(pForm("Datediteur"))
+@helper.inputText(pForm("NbreDePage"))
+@helper.inputText(pForm("titre")) 
+
+<input type="submit" value="sauvegarder"/> }
+}

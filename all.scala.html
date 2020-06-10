@@ -1,0 +1,10 @@
+ @(liste: List[Person])
+@main("Liste des personnes") {
+<Title>Liste des @liste.size() personnes</Title> 
+<ul>
+  @for(p <- liste) {
+   <li> @p.firstname, @p.age years old </li> 
+   }
+</ul> 
+}
+
