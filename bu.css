@@ -1,0 +1,136 @@
+html, body{
+    margin:0%;
+    padding: 0%;
+}
+
+body {
+    overflow-x: hidden;
+background: url(photo/is.jpg) no-repeat 30% 30%;
+    width: 600%;
+    background-size: cover;
+background-repeat :repeat;
+}
+#banner1 {
+    display: block;
+    background-color: blue;
+    height: 110px;
+    width: 1550px;
+}
+
+#banner1 p { 
+    position: relative;
+    font-weight: bold;
+    font-size: 20px;
+    top: 7px;
+    margin: 0;
+    text-align: center;
+}
+#menu {
+    min-width: 500px;
+    position: relative;
+}
+#menu ul {
+     float: left;
+    left: 50%;
+      position: relative;
+     margin-left : -60px;
+    padding-top: 15px; 
+}
+
+    #menu ul li {
+     margin-left: 100px;
+     float: left;
+    list-style-type: none;
+    font-weight: 1000;
+    left: -50%;
+    position: relative;
+        
+}
+
+#menu ul li a {
+    color: black;
+    background: orange;
+    text-decoration: none;
+    padding: 10px;
+    
+}
+#menu ul li a:hover {
+    color: white;
+    
+}
+
+.contener{
+    display: flex;
+}
+.ssbloc1, .ssbloc2{
+        top: 300px;
+    left:450px;
+    float: left;   
+    width: 500px;
+    color: white;
+    vertical-align:top;
+margin: 1.5% 1% 0;
+    text-align: center
+    
+}
+.pPrincipale{
+    padding: 0.1% 1.5% 0%;
+    display:flex;
+    flex-direction: row;
+}
+img{
+
+flex-basis: 180%;
+
+}*
+strong{
+    text-align: center;
+color: orange;
+}
+.ssbloc1 { 
+    image-resolution: ;
+background-color: brown;
+
+}
+
+.ssbloc2 {
+    float: left;
+background-color: purple;
+    
+}
+.bloc3 {
+     text-align: center;
+   
+    display: inline-block;
+background-color: pink;
+ 
+    width: 330px;
+     margin: 1.5% 0.1% 0;
+     
+}
+.bloc1 {
+     text-align: center;
+   
+     display: inline-block;
+background-color: grey;
+     width: 330px;
+    
+     margin: 1.5% 0.1% 0;
+}
+
+
+.bloc2 {
+    text-align: center;
+     display: inline-block;
+background-color: grey;
+     width: 330px;
+     margin: 1.5% 0.1% 0;
+    
+}
+.bloc4 {
+     text-align: center;
+background-color: pink;
+     width: 330px;
+     margin: 1.5% 0.1% 0;
+    
+}
